@@ -36,7 +36,7 @@ class _AnimatedContainerPageState extends State<AnimatedContainerPage> {
   @override
   Widget build(BuildContext context) {
     return AppScaffold(
-      title: 'AnimatedAlign',
+      title: 'AnimatedContainer',
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setState(() {
