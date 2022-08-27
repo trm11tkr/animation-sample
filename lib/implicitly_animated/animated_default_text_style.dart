@@ -2,7 +2,8 @@ import 'package:animations_sample/gen/fonts.gen.dart';
 import 'package:animations_sample/widgets/app_scaffold.dart';
 import 'package:flutter/material.dart';
 
-/// AnimatedAlignmentに加えてcolorや余白などにアニメーションをつけることができる。
+/// 下位ツリーのTextのスタイルを指定できる。
+/// 上位ツリーで指定されていても上書きされる。
 
 class AnimatedDefaultTextStylePage extends StatefulWidget {
   const AnimatedDefaultTextStylePage({super.key});
