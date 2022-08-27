@@ -1,5 +1,6 @@
 import 'package:animations_sample/implicitly_animated/animated_align_page.dart';
 import 'package:animations_sample/implicitly_animated/animated_container.dart';
+import 'package:animations_sample/implicitly_animated/animated_cross_fade_page.dart';
 import 'package:animations_sample/implicitly_animated/implicitly_animated_page.dart';
 import 'package:flutter/material.dart';
 
@@ -21,6 +22,8 @@ class App extends StatelessWidget {
         AnimatedAlignPage.routeName: (context) => const AnimatedAlignPage(),
         AnimatedContainerPage.routeName: (context) =>
             const AnimatedContainerPage(),
+        AnimatedCrossFadePage.routeName: (context) =>
+            const AnimatedCrossFadePage(),
       },
     );
   }
