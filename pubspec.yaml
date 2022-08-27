@@ -39,3 +39,15 @@ flutter:
   assets:
     - assets/images/hippo.png
     - assets/images/hippo_grey.png
+
+  fonts:
+    - family: AlumniSansPinstripe
+      fonts:
+        - asset: assets/fonts/AlumniSansPinstripe-Regular.ttf
+        - asset: assets/fonts/AlumniSansPinstripe-Italic.ttf
+          style: italic
+    - family: MPLUSRounded1c
+      fonts:
+        - asset: assets/fonts/MPLUSRounded1c-Medium.ttf
+        - asset: assets/fonts/MPLUSRounded1c-Bold.ttf
+          weight: 700
