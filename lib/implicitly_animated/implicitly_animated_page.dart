@@ -6,6 +6,7 @@ import 'package:animations_sample/implicitly_animated/animated_opacity.dart';
 import 'package:animations_sample/implicitly_animated/animated_padding.dart';
 import 'package:animations_sample/implicitly_animated/animated_physical_model.dart';
 import 'package:animations_sample/implicitly_animated/animated_positioned.dart';
+import 'package:animations_sample/implicitly_animated/animated_positioned_directional.dart';
 import 'package:animations_sample/widgets/app_list_tile.dart';
 import 'package:animations_sample/widgets/app_scaffold.dart';
 import 'package:flutter/material.dart';
@@ -52,6 +53,10 @@ class ImplicitlyAnimatedPage extends StatelessWidget {
           AppListTile(
             title: 'animatedPositioned',
             nextRouteName: AnimatedPositionedPage.routeName,
+          ),
+          AppListTile(
+            title: 'animatedPositionedDirectional',
+            nextRouteName: AnimatedPositionedDirectionalPage.routeName,
           ),
         ],
       ),
