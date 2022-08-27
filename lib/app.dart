@@ -7,6 +7,7 @@ import 'package:animations_sample/implicitly_animated/animated_padding.dart';
 import 'package:animations_sample/implicitly_animated/animated_physical_model.dart';
 import 'package:animations_sample/implicitly_animated/animated_positioned.dart';
 import 'package:animations_sample/implicitly_animated/animated_positioned_directional.dart';
+import 'package:animations_sample/implicitly_animated/animated_theme.dart';
 import 'package:animations_sample/implicitly_animated/implicitly_animated_page.dart';
 import 'package:flutter/material.dart';
 
@@ -40,6 +41,7 @@ class App extends StatelessWidget {
             const AnimatedPositionedPage(),
         AnimatedPositionedDirectionalPage.routeName: (context) =>
             const AnimatedPositionedDirectionalPage(),
+        AnimatedThemePage.routeName: (context) => const AnimatedThemePage(),
       },
     );
   }
