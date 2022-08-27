@@ -5,6 +5,7 @@ import 'package:animations_sample/implicitly_animated/animated_default_text_styl
 import 'package:animations_sample/implicitly_animated/animated_opacity.dart';
 import 'package:animations_sample/implicitly_animated/animated_padding.dart';
 import 'package:animations_sample/implicitly_animated/animated_physical_model.dart';
+import 'package:animations_sample/implicitly_animated/animated_positioned.dart';
 import 'package:animations_sample/implicitly_animated/implicitly_animated_page.dart';
 import 'package:flutter/material.dart';
 
@@ -34,6 +35,8 @@ class App extends StatelessWidget {
         AnimatedPaddingPage.routeName: (context) => const AnimatedPaddingPage(),
         AnimatedPhysicalModelPage.routeName: (context) =>
             const AnimatedPhysicalModelPage(),
+        AnimatedPositionedPage.routeName: (context) =>
+            const AnimatedPositionedPage(),
       },
     );
   }
