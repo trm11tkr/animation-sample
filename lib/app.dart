@@ -3,6 +3,7 @@ import 'package:animations_sample/implicitly_animated/animated_container.dart';
 import 'package:animations_sample/implicitly_animated/animated_cross_fade.dart';
 import 'package:animations_sample/implicitly_animated/animated_default_text_style.dart';
 import 'package:animations_sample/implicitly_animated/animated_opacity.dart';
+import 'package:animations_sample/implicitly_animated/animated_padding.dart';
 import 'package:animations_sample/implicitly_animated/implicitly_animated_page.dart';
 import 'package:flutter/material.dart';
 
@@ -29,6 +30,7 @@ class App extends StatelessWidget {
         AnimatedDefaultTextStylePage.routeName: (context) =>
             const AnimatedDefaultTextStylePage(),
         AnimatedOpacityPage.routeName: (context) => const AnimatedOpacityPage(),
+        AnimatedPaddingPage.routeName: (context) => const AnimatedPaddingPage(),
       },
     );
   }
