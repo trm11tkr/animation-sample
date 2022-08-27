@@ -1,3 +1,4 @@
+import 'package:animations_sample/gen/assets.gen.dart';
 import 'package:flutter/material.dart';
 
 class AnimationObject extends StatelessWidget {
@@ -8,7 +9,7 @@ class AnimationObject extends StatelessWidget {
     return SizedBox(
       width: 120,
       height: 120,
-      child: Image.asset('assets/images/hippo.png'),
+      child: Assets.images.hippo.image(),
     );
   }
 }

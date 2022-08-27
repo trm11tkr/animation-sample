@@ -22,6 +22,10 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  
+  # Code Generator
+  build_runner:
+  flutter_gen_runner:
 
   # Static analysis
   pedantic_mono: ^1.19.2
@@ -34,3 +38,4 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/hippo.png
+    - assets/images/hippo_grey.png
