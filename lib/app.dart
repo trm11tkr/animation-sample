@@ -2,6 +2,7 @@ import 'package:animations_sample/implicitly_animated/animated_align.dart';
 import 'package:animations_sample/implicitly_animated/animated_container.dart';
 import 'package:animations_sample/implicitly_animated/animated_cross_fade.dart';
 import 'package:animations_sample/implicitly_animated/animated_default_text_style.dart';
+import 'package:animations_sample/implicitly_animated/animated_icon.dart';
 import 'package:animations_sample/implicitly_animated/animated_opacity.dart';
 import 'package:animations_sample/implicitly_animated/animated_padding.dart';
 import 'package:animations_sample/implicitly_animated/animated_physical_model.dart';
@@ -42,6 +43,7 @@ class App extends StatelessWidget {
         AnimatedPositionedDirectionalPage.routeName: (context) =>
             const AnimatedPositionedDirectionalPage(),
         AnimatedThemePage.routeName: (context) => const AnimatedThemePage(),
+        AnimatedIconPage.routeName: (context) => const AnimatedIconPage(),
       },
     );
   }
