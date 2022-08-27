@@ -2,6 +2,8 @@ import 'package:animations_sample/widgets/animation_object.dart';
 import 'package:animations_sample/widgets/app_scaffold.dart';
 import 'package:flutter/material.dart';
 
+/// 指定したAlignmentに向かって滑らかにオブジェクトを移動させる
+
 class AnimatedAlignPage extends StatefulWidget {
   const AnimatedAlignPage({super.key});
 
@@ -14,8 +16,10 @@ class AnimatedAlignPage extends StatefulWidget {
 class _AnimatedAlignPageState extends State<AnimatedAlignPage> {
   static const _alignments = [
     Alignment.topLeft,
+    Alignment(0, -0.5),
     Alignment.topRight,
     Alignment.bottomRight,
+    Alignment(0, 0.5),
     Alignment.bottomLeft,
   ];
 
