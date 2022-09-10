@@ -19,6 +19,7 @@ import 'package:animations_sample/pages/transition/fade_transition.dart';
 import 'package:animations_sample/pages/transition/positioned_transition.dart';
 import 'package:animations_sample/pages/transition/rotation_transition.dart';
 import 'package:animations_sample/pages/transition/scale_transition.dart';
+import 'package:animations_sample/pages/transition/slide_transition.dart';
 import 'package:animations_sample/pages/transition/transition_page.dart';
 import 'package:flutter/material.dart';
 
@@ -67,6 +68,7 @@ class App extends StatelessWidget {
         RotationTransitionPage.routeName: (context) =>
             const RotationTransitionPage(),
         ScaleTransitionPage.routeName: (context) => const ScaleTransitionPage(),
+        SlideTransitionPage.routeName: (context) => const SlideTransitionPage(),
       },
     );
   }
