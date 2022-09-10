@@ -17,6 +17,7 @@ import 'package:animations_sample/pages/transition/decorated_box_transition.dart
 import 'package:animations_sample/pages/transition/default_text_style_transition.dart';
 import 'package:animations_sample/pages/transition/fade_transition.dart';
 import 'package:animations_sample/pages/transition/positioned_transition.dart';
+import 'package:animations_sample/pages/transition/rotation_transition.dart';
 import 'package:animations_sample/pages/transition/transition_page.dart';
 import 'package:flutter/material.dart';
 
@@ -62,6 +63,8 @@ class App extends StatelessWidget {
         FadeTransitionPage.routeName: (context) => const FadeTransitionPage(),
         PositionedTransitionPage.routeName: (context) =>
             const PositionedTransitionPage(),
+        RotationTransitionPage.routeName: (context) =>
+            const RotationTransitionPage(),
       },
     );
   }
