@@ -11,6 +11,9 @@ import 'package:animations_sample/pages//implicitly_animated/animated_positioned
 import 'package:animations_sample/pages//implicitly_animated/animated_theme.dart';
 import 'package:animations_sample/pages//implicitly_animated/hero.dart';
 import 'package:animations_sample/pages//implicitly_animated/implicitly_animated_page.dart';
+import 'package:animations_sample/pages/home_page.dart';
+import 'package:animations_sample/pages/transition/align_transition_page.dart';
+import 'package:animations_sample/pages/transition/transition_page.dart';
 import 'package:flutter/material.dart';
 
 final rootNavigatorKey = GlobalKey<NavigatorState>();
@@ -24,7 +27,7 @@ class App extends StatelessWidget {
       title: 'Animation Sample',
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
-      home: const ImplicitlyAnimatedPage(),
+      home: const HomePage(),
       routes: {
         ImplicitlyAnimatedPage.routeName: (context) =>
             const ImplicitlyAnimatedPage(),
@@ -46,6 +49,8 @@ class App extends StatelessWidget {
         AnimatedThemePage.routeName: (context) => const AnimatedThemePage(),
         AnimatedIconPage.routeName: (context) => const AnimatedIconPage(),
         HeroPage.routeName: (context) => const HeroPage(),
+        TransitionPage.routeName: (context) => const TransitionPage(),
+        AlignTransitionPage.routeName: (context) => const AlignTransitionPage(),
       },
     );
   }
