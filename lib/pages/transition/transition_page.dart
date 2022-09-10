@@ -1,3 +1,4 @@
+import 'package:animations_sample/pages/transition/decorated_box_transition_page.dart';
 import 'package:animations_sample/widgets/app_list_tile.dart';
 import 'package:animations_sample/widgets/app_scaffold.dart';
 import 'package:flutter/material.dart';
@@ -17,6 +18,10 @@ class TransitionPage extends StatelessWidget {
           AppListTile(
             title: 'AlignTransition',
             nextRouteName: AlignTransitionPage.routeName,
+          ),
+          AppListTile(
+            title: 'DecoratedBoxTransition',
+            nextRouteName: DecoratedBoxTransitionPage.routeName,
           ),
         ],
       ),
