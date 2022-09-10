@@ -12,9 +12,9 @@ import 'package:animations_sample/pages//implicitly_animated/animated_theme.dart
 import 'package:animations_sample/pages//implicitly_animated/hero.dart';
 import 'package:animations_sample/pages//implicitly_animated/implicitly_animated_page.dart';
 import 'package:animations_sample/pages/home_page.dart';
-import 'package:animations_sample/pages/transition/align_transition_page.dart';
-import 'package:animations_sample/pages/transition/decorated_box_transition_page.dart';
-import 'package:animations_sample/pages/transition/default_text_style_transition_page.dart';
+import 'package:animations_sample/pages/transition/align_transition.dart';
+import 'package:animations_sample/pages/transition/decorated_box_transition.dart';
+import 'package:animations_sample/pages/transition/default_text_style_transition.dart';
 import 'package:animations_sample/pages/transition/transition_page.dart';
 import 'package:flutter/material.dart';
 
