@@ -1,16 +1,26 @@
-import 'package:animations_sample/implicitly_animated/animated_align.dart';
-import 'package:animations_sample/implicitly_animated/animated_container.dart';
-import 'package:animations_sample/implicitly_animated/animated_cross_fade.dart';
-import 'package:animations_sample/implicitly_animated/animated_default_text_style.dart';
-import 'package:animations_sample/implicitly_animated/animated_icon.dart';
-import 'package:animations_sample/implicitly_animated/animated_opacity.dart';
-import 'package:animations_sample/implicitly_animated/animated_padding.dart';
-import 'package:animations_sample/implicitly_animated/animated_physical_model.dart';
-import 'package:animations_sample/implicitly_animated/animated_positioned.dart';
-import 'package:animations_sample/implicitly_animated/animated_positioned_directional.dart';
-import 'package:animations_sample/implicitly_animated/animated_theme.dart';
-import 'package:animations_sample/implicitly_animated/hero.dart';
-import 'package:animations_sample/implicitly_animated/implicitly_animated_page.dart';
+import 'package:animations_sample/pages//implicitly_animated/animated_align.dart';
+import 'package:animations_sample/pages//implicitly_animated/animated_container.dart';
+import 'package:animations_sample/pages//implicitly_animated/animated_cross_fade.dart';
+import 'package:animations_sample/pages//implicitly_animated/animated_default_text_style.dart';
+import 'package:animations_sample/pages//implicitly_animated/animated_icon.dart';
+import 'package:animations_sample/pages//implicitly_animated/animated_opacity.dart';
+import 'package:animations_sample/pages//implicitly_animated/animated_padding.dart';
+import 'package:animations_sample/pages//implicitly_animated/animated_physical_model.dart';
+import 'package:animations_sample/pages//implicitly_animated/animated_positioned.dart';
+import 'package:animations_sample/pages//implicitly_animated/animated_positioned_directional.dart';
+import 'package:animations_sample/pages//implicitly_animated/animated_theme.dart';
+import 'package:animations_sample/pages//implicitly_animated/hero.dart';
+import 'package:animations_sample/pages//implicitly_animated/implicitly_animated_page.dart';
+import 'package:animations_sample/pages/home_page.dart';
+import 'package:animations_sample/pages/transition/align_transition.dart';
+import 'package:animations_sample/pages/transition/decorated_box_transition.dart';
+import 'package:animations_sample/pages/transition/default_text_style_transition.dart';
+import 'package:animations_sample/pages/transition/fade_transition.dart';
+import 'package:animations_sample/pages/transition/positioned_transition.dart';
+import 'package:animations_sample/pages/transition/rotation_transition.dart';
+import 'package:animations_sample/pages/transition/scale_transition.dart';
+import 'package:animations_sample/pages/transition/slide_transition.dart';
+import 'package:animations_sample/pages/transition/transition_page.dart';
 import 'package:flutter/material.dart';
 
 final rootNavigatorKey = GlobalKey<NavigatorState>();
@@ -24,7 +34,7 @@ class App extends StatelessWidget {
       title: 'Animation Sample',
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
-      home: const ImplicitlyAnimatedPage(),
+      home: const HomePage(),
       routes: {
         ImplicitlyAnimatedPage.routeName: (context) =>
             const ImplicitlyAnimatedPage(),
@@ -46,6 +56,19 @@ class App extends StatelessWidget {
         AnimatedThemePage.routeName: (context) => const AnimatedThemePage(),
         AnimatedIconPage.routeName: (context) => const AnimatedIconPage(),
         HeroPage.routeName: (context) => const HeroPage(),
+        TransitionPage.routeName: (context) => const TransitionPage(),
+        AlignTransitionPage.routeName: (context) => const AlignTransitionPage(),
+        DecoratedBoxTransitionPage.routeName: (context) =>
+            const DecoratedBoxTransitionPage(),
+        DefaultTextStyleTransitionPage.routeName: (context) =>
+            const DefaultTextStyleTransitionPage(),
+        FadeTransitionPage.routeName: (context) => const FadeTransitionPage(),
+        PositionedTransitionPage.routeName: (context) =>
+            const PositionedTransitionPage(),
+        RotationTransitionPage.routeName: (context) =>
+            const RotationTransitionPage(),
+        ScaleTransitionPage.routeName: (context) => const ScaleTransitionPage(),
+        SlideTransitionPage.routeName: (context) => const SlideTransitionPage(),
       },
     );
   }
