@@ -14,6 +14,7 @@ import 'package:animations_sample/pages//implicitly_animated/implicitly_animated
 import 'package:animations_sample/pages/home_page.dart';
 import 'package:animations_sample/pages/transition/align_transition_page.dart';
 import 'package:animations_sample/pages/transition/decorated_box_transition_page.dart';
+import 'package:animations_sample/pages/transition/default_text_style_transition_page.dart';
 import 'package:animations_sample/pages/transition/transition_page.dart';
 import 'package:flutter/material.dart';
 
@@ -54,6 +55,8 @@ class App extends StatelessWidget {
         AlignTransitionPage.routeName: (context) => const AlignTransitionPage(),
         DecoratedBoxTransitionPage.routeName: (context) =>
             const DecoratedBoxTransitionPage(),
+        DefaultTextStyleTransitionPage.routeName: (context) =>
+            const DefaultTextStyleTransitionPage(),
       },
     );
   }
