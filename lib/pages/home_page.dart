@@ -1,3 +1,4 @@
+import 'package:animations_sample/pages/curve/curve_page.dart';
 import 'package:animations_sample/pages/implicitly_animated/implicitly_animated_page.dart';
 import 'package:animations_sample/pages/transition/transition_page.dart';
 import 'package:animations_sample/widgets/app_list_tile.dart';
@@ -12,9 +13,10 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AppScaffold(
-      title: 'TransitionPage',
+      title: 'HomePage',
       child: ListView(
         children: const [
+
           AppListTile(
             title: 'ImplicitlyAnimated',
             nextRouteName: ImplicitlyAnimatedPage.routeName,
@@ -23,6 +25,10 @@ class HomePage extends StatelessWidget {
             title: 'Transition',
             nextRouteName: TransitionPage.routeName,
           ),
+          AppListTile(
+            title: 'Curve',
+            nextRouteName: CurvePage.routeName,
+          )
         ],
       ),
     );
