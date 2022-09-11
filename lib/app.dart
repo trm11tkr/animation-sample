@@ -13,6 +13,7 @@ import 'package:animations_sample/pages//implicitly_animated/hero.dart';
 import 'package:animations_sample/pages//implicitly_animated/implicitly_animated_page.dart';
 import 'package:animations_sample/pages/curve/curve_page.dart';
 import 'package:animations_sample/pages/curve/curves_bound_in.dart';
+import 'package:animations_sample/pages/curve/curves_bound_in_out.dart';
 import 'package:animations_sample/pages/home_page.dart';
 import 'package:animations_sample/pages/transition/align_transition.dart';
 import 'package:animations_sample/pages/transition/decorated_box_transition.dart';
@@ -73,6 +74,8 @@ class App extends StatelessWidget {
         SlideTransitionPage.routeName: (context) => const SlideTransitionPage(),
         CurvePage.routeName: (context) => const CurvePage(),
         CurvesBoundInPage.routeName: (context) => const CurvesBoundInPage(),
+        CurvesBoundInOutPage.routeName: (context) =>
+            const CurvesBoundInOutPage(),
       },
     );
   }
