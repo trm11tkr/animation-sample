@@ -1,9 +1,11 @@
+import 'package:animations_sample/pages/curves/curves_bound_in.dart';
+import 'package:animations_sample/pages/curves/curves_bound_in_out.dart';
 import 'package:animations_sample/pages/curves/curves_bound_out.dart';
 import 'package:animations_sample/pages/curves/curves_decelerate.dart';
 import 'package:animations_sample/pages/curves/curves_ease.dart';
-import 'package:animations_sample/pages/curves/curves_bound_in.dart';
-import 'package:animations_sample/pages/curves/curves_bound_in_out.dart';
 import 'package:animations_sample/pages/curves/curves_ease_in.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_quad.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_sine.dart';
 import 'package:animations_sample/widgets/app_list_tile.dart';
 import 'package:animations_sample/widgets/app_scaffold.dart';
 import 'package:flutter/material.dart';
@@ -41,6 +43,14 @@ class CurvePage extends StatelessWidget {
           AppListTile(
             title: 'CurvesEaseIn',
             nextRouteName: CurvesEaseInPage.routeName,
+          ),
+          AppListTile(
+            title: 'CurvesEaseInSine',
+            nextRouteName: CurvesEaseInSinePage.routeName,
+          ),
+          AppListTile(
+            title: 'CurvesEaseInQuad',
+            nextRouteName: CurvesEaseInQuadPage.routeName,
           ),
         ],
       ),

@@ -17,6 +17,8 @@ import 'package:animations_sample/pages/curves/curves_bound_out.dart';
 import 'package:animations_sample/pages/curves/curves_decelerate.dart';
 import 'package:animations_sample/pages/curves/curves_ease.dart';
 import 'package:animations_sample/pages/curves/curves_ease_in.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_quad.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_sine.dart';
 import 'package:animations_sample/pages/curves/curves_page.dart';
 import 'package:animations_sample/pages/home_page.dart';
 import 'package:animations_sample/pages/transition/align_transition.dart';
@@ -85,6 +87,10 @@ class App extends StatelessWidget {
             const CurvesDeceleratePage(),
         CurvesEasePage.routeName: (context) => const CurvesEasePage(),
         CurvesEaseInPage.routeName: (context) => const CurvesEaseInPage(),
+        CurvesEaseInSinePage.routeName: (context) =>
+            const CurvesEaseInSinePage(),
+        CurvesEaseInQuadPage.routeName: (context) =>
+            const CurvesEaseInQuadPage(),
       },
     );
   }
