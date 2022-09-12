@@ -1,4 +1,4 @@
-import 'package:animations_sample/pages/curve/curve_object.dart';
+import 'package:animations_sample/pages/curves/curves_object.dart';
 import 'package:flutter/material.dart';
 
 class CurvesBoundOutPage extends StatelessWidget {

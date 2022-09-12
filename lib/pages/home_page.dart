@@ -1,4 +1,4 @@
-import 'package:animations_sample/pages/curve/curve_page.dart';
+import 'package:animations_sample/pages/curves/curves_page.dart';
 import 'package:animations_sample/pages/implicitly_animated/implicitly_animated_page.dart';
 import 'package:animations_sample/pages/transition/transition_page.dart';
 import 'package:animations_sample/widgets/app_list_tile.dart';
