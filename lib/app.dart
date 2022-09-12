@@ -17,7 +17,22 @@ import 'package:animations_sample/pages/curves/curves_bound_out.dart';
 import 'package:animations_sample/pages/curves/curves_decelerate.dart';
 import 'package:animations_sample/pages/curves/curves_ease.dart';
 import 'package:animations_sample/pages/curves/curves_ease_in.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_back.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_circ.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_cubic.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_expo.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_out.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_out_back.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_out_circ.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_out_cubic.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_out_expo.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_out_quad.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_out_quart.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_out_quint.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_out_sine.dart';
 import 'package:animations_sample/pages/curves/curves_ease_in_quad.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_quart.dart';
+import 'package:animations_sample/pages/curves/curves_ease_in_quint.dart';
 import 'package:animations_sample/pages/curves/curves_ease_in_sine.dart';
 import 'package:animations_sample/pages/curves/curves_page.dart';
 import 'package:animations_sample/pages/home_page.dart';
@@ -91,6 +106,36 @@ class App extends StatelessWidget {
             const CurvesEaseInSinePage(),
         CurvesEaseInQuadPage.routeName: (context) =>
             const CurvesEaseInQuadPage(),
+            CurvesEaseInCubicPage.routeName: (context) =>
+            const CurvesEaseInCubicPage(),
+            CurvesEaseInQuartPage.routeName: (context) =>
+            const CurvesEaseInQuartPage(),
+            CurvesEaseInQuintPage.routeName: (context) =>
+            const CurvesEaseInQuintPage(),
+            CurvesEaseInExpoPage.routeName: (context) =>
+            const CurvesEaseInExpoPage(),
+            CurvesEaseInCircPage.routeName: (context) =>
+            const CurvesEaseInCircPage(),
+            CurvesEaseInBackPage.routeName: (context) =>
+            const CurvesEaseInBackPage(),
+            CurvesEaseInOutPage.routeName: (context) =>
+            const CurvesEaseInOutPage(),
+            CurvesEaseInOutQuadPage.routeName: (context) =>
+            const CurvesEaseInOutSinePage(),
+            CurvesEaseInOutSinePage.routeName: (context) =>
+            const CurvesEaseInOutQuadPage(),
+            CurvesEaseInOutCubicPage.routeName: (context) =>
+            const CurvesEaseInOutCubicPage(),
+            CurvesEaseInOutQuartPage.routeName: (context) =>
+            const CurvesEaseInOutQuartPage(),
+            CurvesEaseInOutQuintPage.routeName: (context) =>
+            const CurvesEaseInOutQuintPage(),
+            CurvesEaseInOutExpoPage.routeName: (context) =>
+            const CurvesEaseInOutExpoPage(),
+            CurvesEaseInOutCircPage.routeName: (context) =>
+            const CurvesEaseInOutCircPage(),
+            CurvesEaseInOutBackPage.routeName: (context) =>
+            const CurvesEaseInOutBackPage(),
       },
     );
   }
