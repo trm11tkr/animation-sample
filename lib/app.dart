@@ -12,6 +12,7 @@ import 'package:animations_sample/pages//implicitly_animated/animated_theme.dart
 import 'package:animations_sample/pages//implicitly_animated/hero.dart';
 import 'package:animations_sample/pages//implicitly_animated/implicitly_animated_page.dart';
 import 'package:animations_sample/pages/curve/curve_bound_out.dart';
+import 'package:animations_sample/pages/curve/curve_decelerate.dart';
 import 'package:animations_sample/pages/curve/curve_page.dart';
 import 'package:animations_sample/pages/curve/curves_bound_in.dart';
 import 'package:animations_sample/pages/curve/curves_bound_in_out.dart';
@@ -78,6 +79,8 @@ class App extends StatelessWidget {
         CurvesBoundInOutPage.routeName: (context) =>
             const CurvesBoundInOutPage(),
         CurvesBoundOutPage.routeName: (context) => const CurvesBoundOutPage(),
+        CurvesDeceleratePage.routeName: (context) =>
+            const CurvesDeceleratePage(),
       },
     );
   }
