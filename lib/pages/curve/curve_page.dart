@@ -1,5 +1,6 @@
 import 'package:animations_sample/pages/curve/curve_bound_out.dart';
 import 'package:animations_sample/pages/curve/curve_decelerate.dart';
+import 'package:animations_sample/pages/curve/curve_ease.dart';
 import 'package:animations_sample/pages/curve/curves_bound_in.dart';
 import 'package:animations_sample/pages/curve/curves_bound_in_out.dart';
 import 'package:animations_sample/widgets/app_list_tile.dart';
@@ -31,6 +32,10 @@ class CurvePage extends StatelessWidget {
           AppListTile(
             title: 'CurvesDecelerate',
             nextRouteName: CurvesDeceleratePage.routeName,
+          ),
+          AppListTile(
+            title: 'CurvesEase',
+            nextRouteName: CurvesEasePage.routeName,
           ),
         ],
       ),
