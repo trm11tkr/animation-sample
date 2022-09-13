@@ -21,6 +21,11 @@ import 'package:animations_sample/pages/curves/curves_ease_in_quad.dart';
 import 'package:animations_sample/pages/curves/curves_ease_in_quart.dart';
 import 'package:animations_sample/pages/curves/curves_ease_in_quint.dart';
 import 'package:animations_sample/pages/curves/curves_ease_in_sine.dart';
+import 'package:animations_sample/pages/curves/curves_elastic_in.dart';
+import 'package:animations_sample/pages/curves/curves_elastic_in_out.dart';
+import 'package:animations_sample/pages/curves/curves_fast_linear_to_slow_ease_in.dart';
+import 'package:animations_sample/pages/curves/curves_fast_out_slow_in.dart';
+import 'package:animations_sample/pages/curves/curves_linear.dart';
 import 'package:animations_sample/pages/curves/curves_out.dart';
 import 'package:animations_sample/pages/curves/curves_out_back.dart';
 import 'package:animations_sample/pages/curves/curves_out_circ.dart';
@@ -29,9 +34,12 @@ import 'package:animations_sample/pages/curves/curves_out_expo.dart';
 import 'package:animations_sample/pages/curves/curves_out_quad.dart';
 import 'package:animations_sample/pages/curves/curves_out_quint.dart';
 import 'package:animations_sample/pages/curves/curves_out_sine.dart';
+import 'package:animations_sample/pages/curves/curves_slow_middle.dart';
 import 'package:animations_sample/widgets/app_list_tile.dart';
 import 'package:animations_sample/widgets/app_scaffold.dart';
 import 'package:flutter/material.dart';
+
+/// ref: https://api.flutter.dev/flutter/animation/Curves-class.html
 
 class CurvePage extends StatelessWidget {
   const CurvePage({super.key});
@@ -166,6 +174,30 @@ class CurvePage extends StatelessWidget {
           AppListTile(
             title: 'CurvesEaseOutBack',
             nextRouteName: CurvesEaseOutBackPage.routeName,
+          ),
+          AppListTile(
+            title: 'CurvesElasticIn',
+            nextRouteName: CurvesElasticInPage.routeName,
+          ),
+          AppListTile(
+            title: 'CurvesElasticInOut',
+            nextRouteName: CurvesElasticInOutPage.routeName,
+          ),
+          AppListTile(
+            title: 'CurvesElasticFastOutSlowIn',
+            nextRouteName: CurvesFastOutSlowInPage.routeName,
+          ),
+          AppListTile(
+            title: 'CurvesFastLinearToSlowEaseIn',
+            nextRouteName: CurvesFastLinearToSlowEaseInPage.routeName,
+          ),
+          AppListTile(
+            title: 'CurvesSlowMiddle',
+            nextRouteName: CurvesSlowMiddlePage.routeName,
+          ),
+          AppListTile(
+            title: 'CurvesLinear',
+            nextRouteName: CurvesLinearPage.routeName,
           ),
         ],
       ),

@@ -34,6 +34,12 @@ import 'package:animations_sample/pages/curves/curves_ease_in_quad.dart';
 import 'package:animations_sample/pages/curves/curves_ease_in_quart.dart';
 import 'package:animations_sample/pages/curves/curves_ease_in_quint.dart';
 import 'package:animations_sample/pages/curves/curves_ease_in_sine.dart';
+import 'package:animations_sample/pages/curves/curves_elastic_in.dart';
+import 'package:animations_sample/pages/curves/curves_elastic_in_out.dart';
+import 'package:animations_sample/pages/curves/curves_elastic_out.dart';
+import 'package:animations_sample/pages/curves/curves_fast_linear_to_slow_ease_in.dart';
+import 'package:animations_sample/pages/curves/curves_fast_out_slow_in.dart';
+import 'package:animations_sample/pages/curves/curves_linear.dart';
 import 'package:animations_sample/pages/curves/curves_out.dart';
 import 'package:animations_sample/pages/curves/curves_out_back.dart';
 import 'package:animations_sample/pages/curves/curves_out_circ.dart';
@@ -44,6 +50,7 @@ import 'package:animations_sample/pages/curves/curves_out_quart.dart';
 import 'package:animations_sample/pages/curves/curves_out_quint.dart';
 import 'package:animations_sample/pages/curves/curves_out_sine.dart';
 import 'package:animations_sample/pages/curves/curves_page.dart';
+import 'package:animations_sample/pages/curves/curves_slow_middle.dart';
 import 'package:animations_sample/pages/home_page.dart';
 import 'package:animations_sample/pages/transition/align_transition.dart';
 import 'package:animations_sample/pages/transition/decorated_box_transition.dart';
@@ -161,6 +168,18 @@ class App extends StatelessWidget {
             const CurvesEaseOutCircPage(),
         CurvesEaseOutBackPage.routeName: (context) =>
             const CurvesEaseOutBackPage(),
+        CurvesElasticInPage.routeName: (context) => const CurvesElasticInPage(),
+        CurvesElasticInOutPage.routeName: (context) =>
+            const CurvesElasticInOutPage(),
+        CurvesElasticOutPage.routeName: (context) =>
+            const CurvesElasticOutPage(),
+        CurvesFastOutSlowInPage.routeName: (context) =>
+            const CurvesFastOutSlowInPage(),
+        CurvesFastLinearToSlowEaseInPage.routeName: (context) =>
+            const CurvesFastLinearToSlowEaseInPage(),
+        CurvesSlowMiddlePage.routeName: (context) =>
+            const CurvesSlowMiddlePage(),
+        CurvesLinearPage.routeName: (context) => const CurvesLinearPage(),
       },
     );
   }
