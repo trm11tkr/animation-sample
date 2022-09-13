@@ -1,43 +1,7 @@
-import 'package:animations_sample/pages/curves/curves_bound_in.dart';
-import 'package:animations_sample/pages/curves/curves_bound_in_out.dart';
-import 'package:animations_sample/pages/curves/curves_bound_out.dart';
-import 'package:animations_sample/pages/curves/curves_decelerate.dart';
-import 'package:animations_sample/pages/curves/curves_ease.dart';
-import 'package:animations_sample/pages/curves/curves_ease_in.dart';
-import 'package:animations_sample/pages/curves/curves_ease_in_back.dart';
-import 'package:animations_sample/pages/curves/curves_ease_in_circ.dart';
-import 'package:animations_sample/pages/curves/curves_ease_in_cubic.dart';
-import 'package:animations_sample/pages/curves/curves_ease_in_expo.dart';
-import 'package:animations_sample/pages/curves/curves_ease_in_out.dart';
-import 'package:animations_sample/pages/curves/curves_ease_in_out_back.dart';
-import 'package:animations_sample/pages/curves/curves_ease_in_out_circ.dart';
-import 'package:animations_sample/pages/curves/curves_ease_in_out_cubic.dart';
-import 'package:animations_sample/pages/curves/curves_ease_in_out_expo.dart';
-import 'package:animations_sample/pages/curves/curves_ease_in_out_quad.dart';
-import 'package:animations_sample/pages/curves/curves_ease_in_out_quart.dart';
-import 'package:animations_sample/pages/curves/curves_ease_in_out_quint.dart';
-import 'package:animations_sample/pages/curves/curves_ease_in_out_sine.dart';
-import 'package:animations_sample/pages/curves/curves_ease_in_quad.dart';
-import 'package:animations_sample/pages/curves/curves_ease_in_quart.dart';
-import 'package:animations_sample/pages/curves/curves_ease_in_quint.dart';
-import 'package:animations_sample/pages/curves/curves_ease_in_sine.dart';
-import 'package:animations_sample/pages/curves/curves_elastic_in.dart';
-import 'package:animations_sample/pages/curves/curves_elastic_in_out.dart';
-import 'package:animations_sample/pages/curves/curves_fast_linear_to_slow_ease_in.dart';
-import 'package:animations_sample/pages/curves/curves_fast_out_slow_in.dart';
-import 'package:animations_sample/pages/curves/curves_linear.dart';
-import 'package:animations_sample/pages/curves/curves_out.dart';
-import 'package:animations_sample/pages/curves/curves_out_back.dart';
-import 'package:animations_sample/pages/curves/curves_out_circ.dart';
-import 'package:animations_sample/pages/curves/curves_out_cubic.dart';
-import 'package:animations_sample/pages/curves/curves_out_expo.dart';
-import 'package:animations_sample/pages/curves/curves_out_quad.dart';
-import 'package:animations_sample/pages/curves/curves_out_quint.dart';
-import 'package:animations_sample/pages/curves/curves_out_sine.dart';
-import 'package:animations_sample/pages/curves/curves_slow_middle.dart';
 import 'package:animations_sample/widgets/app_list_tile.dart';
 import 'package:animations_sample/widgets/app_scaffold.dart';
 import 'package:flutter/material.dart';
+import 'index.dart';
 
 /// ref: https://api.flutter.dev/flutter/animation/Curves-class.html
 
@@ -182,6 +146,10 @@ class CurvePage extends StatelessWidget {
           AppListTile(
             title: 'CurvesElasticInOut',
             nextRouteName: CurvesElasticInOutPage.routeName,
+          ),
+          AppListTile(
+            title: 'CurvesElasticOut',
+            nextRouteName: CurvesElasticOutPage.routeName,
           ),
           AppListTile(
             title: 'CurvesElasticFastOutSlowIn',
