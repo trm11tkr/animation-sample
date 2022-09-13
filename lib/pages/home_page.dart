@@ -5,10 +5,8 @@ import 'package:animations_sample/widgets/app_list_tile.dart';
 import 'package:animations_sample/widgets/app_scaffold.dart';
 import 'package:flutter/material.dart';
 
-
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
-
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +14,6 @@ class HomePage extends StatelessWidget {
       title: 'HomePage',
       child: ListView(
         children: const [
-
           AppListTile(
             title: 'ImplicitlyAnimated',
             nextRouteName: ImplicitlyAnimatedPage.routeName,

@@ -34,6 +34,15 @@ import 'package:animations_sample/pages/curves/curves_ease_in_quad.dart';
 import 'package:animations_sample/pages/curves/curves_ease_in_quart.dart';
 import 'package:animations_sample/pages/curves/curves_ease_in_quint.dart';
 import 'package:animations_sample/pages/curves/curves_ease_in_sine.dart';
+import 'package:animations_sample/pages/curves/curves_out.dart';
+import 'package:animations_sample/pages/curves/curves_out_back.dart';
+import 'package:animations_sample/pages/curves/curves_out_circ.dart';
+import 'package:animations_sample/pages/curves/curves_out_cubic.dart';
+import 'package:animations_sample/pages/curves/curves_out_expo.dart';
+import 'package:animations_sample/pages/curves/curves_out_quad.dart';
+import 'package:animations_sample/pages/curves/curves_out_quart.dart';
+import 'package:animations_sample/pages/curves/curves_out_quint.dart';
+import 'package:animations_sample/pages/curves/curves_out_sine.dart';
 import 'package:animations_sample/pages/curves/curves_page.dart';
 import 'package:animations_sample/pages/home_page.dart';
 import 'package:animations_sample/pages/transition/align_transition.dart';
@@ -106,36 +115,52 @@ class App extends StatelessWidget {
             const CurvesEaseInSinePage(),
         CurvesEaseInQuadPage.routeName: (context) =>
             const CurvesEaseInQuadPage(),
-            CurvesEaseInCubicPage.routeName: (context) =>
+        CurvesEaseInCubicPage.routeName: (context) =>
             const CurvesEaseInCubicPage(),
-            CurvesEaseInQuartPage.routeName: (context) =>
+        CurvesEaseInQuartPage.routeName: (context) =>
             const CurvesEaseInQuartPage(),
-            CurvesEaseInQuintPage.routeName: (context) =>
+        CurvesEaseInQuintPage.routeName: (context) =>
             const CurvesEaseInQuintPage(),
-            CurvesEaseInExpoPage.routeName: (context) =>
+        CurvesEaseInExpoPage.routeName: (context) =>
             const CurvesEaseInExpoPage(),
-            CurvesEaseInCircPage.routeName: (context) =>
+        CurvesEaseInCircPage.routeName: (context) =>
             const CurvesEaseInCircPage(),
-            CurvesEaseInBackPage.routeName: (context) =>
+        CurvesEaseInBackPage.routeName: (context) =>
             const CurvesEaseInBackPage(),
-            CurvesEaseInOutPage.routeName: (context) =>
-            const CurvesEaseInOutPage(),
-            CurvesEaseInOutQuadPage.routeName: (context) =>
+        CurvesEaseInOutPage.routeName: (context) => const CurvesEaseInOutPage(),
+        CurvesEaseInOutQuadPage.routeName: (context) =>
             const CurvesEaseInOutSinePage(),
-            CurvesEaseInOutSinePage.routeName: (context) =>
+        CurvesEaseInOutSinePage.routeName: (context) =>
             const CurvesEaseInOutQuadPage(),
-            CurvesEaseInOutCubicPage.routeName: (context) =>
+        CurvesEaseInOutCubicPage.routeName: (context) =>
             const CurvesEaseInOutCubicPage(),
-            CurvesEaseInOutQuartPage.routeName: (context) =>
+        CurvesEaseInOutQuartPage.routeName: (context) =>
             const CurvesEaseInOutQuartPage(),
-            CurvesEaseInOutQuintPage.routeName: (context) =>
+        CurvesEaseInOutQuintPage.routeName: (context) =>
             const CurvesEaseInOutQuintPage(),
-            CurvesEaseInOutExpoPage.routeName: (context) =>
+        CurvesEaseInOutExpoPage.routeName: (context) =>
             const CurvesEaseInOutExpoPage(),
-            CurvesEaseInOutCircPage.routeName: (context) =>
+        CurvesEaseInOutCircPage.routeName: (context) =>
             const CurvesEaseInOutCircPage(),
-            CurvesEaseInOutBackPage.routeName: (context) =>
+        CurvesEaseInOutBackPage.routeName: (context) =>
             const CurvesEaseInOutBackPage(),
+        CurvesEaseOutPage.routeName: (context) => const CurvesEaseOutPage(),
+        CurvesEaseOutSinePage.routeName: (context) =>
+            const CurvesEaseOutSinePage(),
+        CurvesEaseOutQuadPage.routeName: (context) =>
+            const CurvesEaseOutQuadPage(),
+        CurvesEaseOutCubicPage.routeName: (context) =>
+            const CurvesEaseOutCubicPage(),
+        CurvesEaseOutQuartPage.routeName: (context) =>
+            const CurvesEaseOutQuartPage(),
+        CurvesEaseOutQuintPage.routeName: (context) =>
+            const CurvesEaseOutQuintPage(),
+        CurvesEaseOutExpoPage.routeName: (context) =>
+            const CurvesEaseOutExpoPage(),
+        CurvesEaseOutCircPage.routeName: (context) =>
+            const CurvesEaseOutCircPage(),
+        CurvesEaseOutBackPage.routeName: (context) =>
+            const CurvesEaseOutBackPage(),
       },
     );
   }
