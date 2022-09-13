@@ -48,3 +48,7 @@ AnimatedWidgetに比べて細かい操作が可能。
 |RotationTransition|回転アニメーション|
 |ScaleTransition|Scaleを滑らかに変化|
 |SlideTransition|Navigatorを使用せずに、新しい画面を表示（遷移ではない）|
+
+
+### 番外編
+#### [Curves class](https://api.flutter.dev/flutter/animation/Curves-class.html)の動作サンプル

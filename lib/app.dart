@@ -1,25 +1,9 @@
-import 'package:animations_sample/pages//implicitly_animated/animated_align.dart';
-import 'package:animations_sample/pages//implicitly_animated/animated_container.dart';
-import 'package:animations_sample/pages//implicitly_animated/animated_cross_fade.dart';
-import 'package:animations_sample/pages//implicitly_animated/animated_default_text_style.dart';
-import 'package:animations_sample/pages//implicitly_animated/animated_icon.dart';
-import 'package:animations_sample/pages//implicitly_animated/animated_opacity.dart';
-import 'package:animations_sample/pages//implicitly_animated/animated_padding.dart';
-import 'package:animations_sample/pages//implicitly_animated/animated_physical_model.dart';
-import 'package:animations_sample/pages//implicitly_animated/animated_positioned.dart';
-import 'package:animations_sample/pages//implicitly_animated/animated_positioned_directional.dart';
-import 'package:animations_sample/pages//implicitly_animated/animated_theme.dart';
-import 'package:animations_sample/pages//implicitly_animated/hero.dart';
-import 'package:animations_sample/pages//implicitly_animated/implicitly_animated_page.dart';
+import 'package:animations_sample/pages/curves/curves_page.dart';
+import 'package:animations_sample/pages/curves/index.dart';
 import 'package:animations_sample/pages/home_page.dart';
-import 'package:animations_sample/pages/transition/align_transition.dart';
-import 'package:animations_sample/pages/transition/decorated_box_transition.dart';
-import 'package:animations_sample/pages/transition/default_text_style_transition.dart';
-import 'package:animations_sample/pages/transition/fade_transition.dart';
-import 'package:animations_sample/pages/transition/positioned_transition.dart';
-import 'package:animations_sample/pages/transition/rotation_transition.dart';
-import 'package:animations_sample/pages/transition/scale_transition.dart';
-import 'package:animations_sample/pages/transition/slide_transition.dart';
+import 'package:animations_sample/pages/implicitly_animated/implicitly_animated_page.dart';
+import 'package:animations_sample/pages/implicitly_animated/index.dart';
+import 'package:animations_sample/pages/transition/index.dart';
 import 'package:animations_sample/pages/transition/transition_page.dart';
 import 'package:flutter/material.dart';
 
@@ -69,6 +53,77 @@ class App extends StatelessWidget {
             const RotationTransitionPage(),
         ScaleTransitionPage.routeName: (context) => const ScaleTransitionPage(),
         SlideTransitionPage.routeName: (context) => const SlideTransitionPage(),
+        CurvePage.routeName: (context) => const CurvePage(),
+        CurvesBoundInPage.routeName: (context) => const CurvesBoundInPage(),
+        CurvesBoundInOutPage.routeName: (context) =>
+            const CurvesBoundInOutPage(),
+        CurvesBoundOutPage.routeName: (context) => const CurvesBoundOutPage(),
+        CurvesDeceleratePage.routeName: (context) =>
+            const CurvesDeceleratePage(),
+        CurvesEasePage.routeName: (context) => const CurvesEasePage(),
+        CurvesEaseInPage.routeName: (context) => const CurvesEaseInPage(),
+        CurvesEaseInSinePage.routeName: (context) =>
+            const CurvesEaseInSinePage(),
+        CurvesEaseInQuadPage.routeName: (context) =>
+            const CurvesEaseInQuadPage(),
+        CurvesEaseInCubicPage.routeName: (context) =>
+            const CurvesEaseInCubicPage(),
+        CurvesEaseInQuartPage.routeName: (context) =>
+            const CurvesEaseInQuartPage(),
+        CurvesEaseInQuintPage.routeName: (context) =>
+            const CurvesEaseInQuintPage(),
+        CurvesEaseInExpoPage.routeName: (context) =>
+            const CurvesEaseInExpoPage(),
+        CurvesEaseInCircPage.routeName: (context) =>
+            const CurvesEaseInCircPage(),
+        CurvesEaseInBackPage.routeName: (context) =>
+            const CurvesEaseInBackPage(),
+        CurvesEaseInOutPage.routeName: (context) => const CurvesEaseInOutPage(),
+        CurvesEaseInOutQuadPage.routeName: (context) =>
+            const CurvesEaseInOutSinePage(),
+        CurvesEaseInOutSinePage.routeName: (context) =>
+            const CurvesEaseInOutQuadPage(),
+        CurvesEaseInOutCubicPage.routeName: (context) =>
+            const CurvesEaseInOutCubicPage(),
+        CurvesEaseInOutQuartPage.routeName: (context) =>
+            const CurvesEaseInOutQuartPage(),
+        CurvesEaseInOutQuintPage.routeName: (context) =>
+            const CurvesEaseInOutQuintPage(),
+        CurvesEaseInOutExpoPage.routeName: (context) =>
+            const CurvesEaseInOutExpoPage(),
+        CurvesEaseInOutCircPage.routeName: (context) =>
+            const CurvesEaseInOutCircPage(),
+        CurvesEaseInOutBackPage.routeName: (context) =>
+            const CurvesEaseInOutBackPage(),
+        CurvesEaseOutPage.routeName: (context) => const CurvesEaseOutPage(),
+        CurvesEaseOutSinePage.routeName: (context) =>
+            const CurvesEaseOutSinePage(),
+        CurvesEaseOutQuadPage.routeName: (context) =>
+            const CurvesEaseOutQuadPage(),
+        CurvesEaseOutCubicPage.routeName: (context) =>
+            const CurvesEaseOutCubicPage(),
+        CurvesEaseOutQuartPage.routeName: (context) =>
+            const CurvesEaseOutQuartPage(),
+        CurvesEaseOutQuintPage.routeName: (context) =>
+            const CurvesEaseOutQuintPage(),
+        CurvesEaseOutExpoPage.routeName: (context) =>
+            const CurvesEaseOutExpoPage(),
+        CurvesEaseOutCircPage.routeName: (context) =>
+            const CurvesEaseOutCircPage(),
+        CurvesEaseOutBackPage.routeName: (context) =>
+            const CurvesEaseOutBackPage(),
+        CurvesElasticInPage.routeName: (context) => const CurvesElasticInPage(),
+        CurvesElasticInOutPage.routeName: (context) =>
+            const CurvesElasticInOutPage(),
+        CurvesElasticOutPage.routeName: (context) =>
+            const CurvesElasticOutPage(),
+        CurvesFastOutSlowInPage.routeName: (context) =>
+            const CurvesFastOutSlowInPage(),
+        CurvesFastLinearToSlowEaseInPage.routeName: (context) =>
+            const CurvesFastLinearToSlowEaseInPage(),
+        CurvesSlowMiddlePage.routeName: (context) =>
+            const CurvesSlowMiddlePage(),
+        CurvesLinearPage.routeName: (context) => const CurvesLinearPage(),
       },
     );
   }
